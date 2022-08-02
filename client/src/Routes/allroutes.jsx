@@ -8,11 +8,8 @@ import { Navbar } from "../Components/navbar/navbar";
 
 
 export const AllRoutes = () => {
-
-
     return (
       <>
-  
         <Navbar />
         <Routes>
           <Route path="/" element={<Signup />} > </Route>
