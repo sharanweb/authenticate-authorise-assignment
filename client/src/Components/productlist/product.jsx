@@ -10,7 +10,7 @@ export const Product = () =>{
 
 
     const getData = ()=>{
-        axios.get(`http://localhost:8000/products`).then(({ data }) => {
+        axios.get(`http://localhost:8080/products`).then(({ data }) => {
       setData(data.product);
     })
     console.log(data);

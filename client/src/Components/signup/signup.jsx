@@ -16,7 +16,7 @@ function Signup() {
     function handleSubmit(e){
         e.preventDefault();
         console.log(user)
-        fetch("https://localhost:8000/register",{
+        fetch("https://localhost:8080/register",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
