@@ -1,0 +1,18 @@
+.login{
+    width:30%;
+    border:1px solid;
+    padding:20px;
+    margin: auto;
+}
+.input{
+    width:90%;
+    padding:10px;
+    margin-top: 10px;
+}
+#button{
+    background-color: rgb(64, 104, 4);
+    color:aliceblue;
+    padding: 4px 10px;
+    margin-top: 10px;
+    width:50%;
+}
